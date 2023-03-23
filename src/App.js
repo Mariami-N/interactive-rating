@@ -32,55 +32,18 @@ function App() {
       {showpage ? (
               <Page/>
             ) : (
-<div className='main' style ={{
-        width:"412px",
-        height: "416px",
-        backgroundColor:" #181E27 ",
-        borderRadius:"30px",
-        }}>
+<div className='main'>
           <div className='star'>
-              <img style={{
-                  width: "17px",
-                  height: "17px",
-              }}
+              <img className='image1'
               src={image} alt=""/>
           </div>
-          <div style={{
-            display: "flex",
-            flexDirection:"column",
-            width:"350px",
-            height:"122px",
-            marginTop:"10px",
-            marginLeft: "32px",
-          }}>
-          <h1 style={{
-            color:"white",
-            fontFamily: 'Overpass',
-            fonTweight: "700",
-            fontSize: "28px",
-            lineHeight: "35px",
-            marginBottom:"1px"
-          }}
+          <div className='text' >
+          <h1 className='howdid'
           >How did we do?</h1>
-          <p style={{
-            fontFamily: 'Overpass',
-            fontWeight: "400",
-            fontSize: "15px",
-            lineHeight: "24px",
-            color: "#969FAD",
-            marginBottom:"30px",
-          }}
+          <p className='please'
           >Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
           </div>
-          <div style={{
-            display:"flex",
-            justifyContent:"space-around",
-            alignContent:"space-around",
-            gap:"20px",
-            width:"341px",
-            marginLeft:"32px",
-            marginTop:"40px",
-          }}>
+          <div className='boxes'>
             <div className='box'
             >1</div>
             <div className='box'
